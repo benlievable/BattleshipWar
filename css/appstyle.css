@@ -1,0 +1,78 @@
+html, body
+{
+	
+	height: 98%;
+	width: 98%;
+
+}
+
+body {
+    background-image: url("../images/blackbg.jpg");
+    background-color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+
+h3 {color:white;
+	height: 15%;
+	user-select: none;
+	text-align: center;
+}
+
+header {
+	font-family: "Agency FB", "Helvetica", "Times New Roman";
+	font-size: 30px;
+	text-align:center;
+	color:white;
+
+}
+
+footer {
+	text-align: center;
+	color:white;
+	font-family: "Agency FB", "Helvetica", "Times New Roman";
+}
+
+#introduction {
+	font-family: "Georgia", "Helvetica", "Times New Roman";
+	font-size: 18px;
+	color:white;
+	width:600px;
+	margin:auto;
+	text-align: center;
+
+}
+
+#mySVGCanvas {
+	border: 1px solid black;
+	outline: black dotted thick;
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	background-color: white;
+	
+}
+
+#mutebox {
+	color:white;
+	width:600px;
+	margin:auto;
+	text-align: right
+}
+
+/* Image/Audio credits:
+http://www.cliparthut.com/battleship-clipart.html
+http://www.southwindms.com/?attachment_id=104
+http://www.flaticon.com/
+http://http://freesound.org/
+http://www.psdgraphics.com/backgrounds/grunge-construction-background/
+*/
