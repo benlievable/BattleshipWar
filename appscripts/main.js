@@ -535,8 +535,8 @@ Audio
 
         // Grid Blockers are created to block/prevent player clicks on grid when switching turns
 
-        var leftGridBlock = paper.rect(30,55,40*rootOftotalRect,40*rootOftotalRect).attr({'fill': 'black', 'fill-opacity':'50%'}).hide();
-        var rightGridBlock = paper.rect(330,55,40*rootOftotalRect,40*rootOftotalRect).attr({'fill': 'black','fill-opacity':'50%'}).hide();
+        var leftGridBlock = paper.rect(30,55,40*rootOftotalRect,40*rootOftotalRect).attr({'fill': 'black', 'fill-opacity':'0.5'}).hide();
+        var rightGridBlock = paper.rect(330,55,40*rootOftotalRect,40*rootOftotalRect).attr({'fill': 'black','fill-opacity':'0.5'}).hide();
 
 
 //---------------------------------------------------------------------------------
