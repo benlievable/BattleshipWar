@@ -15,8 +15,10 @@ require(
         console.log("yo, I'm alive!");
 
         var paper = new Raphael(document.getElementById("mySVGCanvas"));
-        var pWidth = paper.canvas.offsetWidth;
-        var pHeight = paper.canvas.offsetHeight;
+        //var pWidth = paper.canvas.offsetWidth;
+        //var pHeight = paper.canvas.offsetHeight;
+        var pWidth = paper.width;
+        var pHeight = paper.height;
         console.log("pWidth is " + pWidth + ", and pHeight is " + pHeight);
         
         //bgimage for the paper
